@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>CRUD</title>
+
+<style type="text/css">
+ #heading{
+ background-color: green;
+ text-align: center;
+ 
+ 
+ }
+ 
+ #btnhome{
+ background-color: red;
+ border: 2px solid black;
+ border-radius: 5px;
+ text-align: center;
+ }
+
+
+</style>
+</head>
+<body>
+<!-- CRUD(Create Read Update Delete) -->
+<div id="heading">
+<h1>EMPLOYEE_CRUD_Operation_JSP</h1>
+</div>
+<hr>
+<div id="btnhome">
+<a href="viewEmployees.jsp">View Employees</a>
+</div>
+<div id="btnhome">
+<a href="addEmployee.jsp">Add Employee</a>
+</div>
+
+</body>
+</html>
